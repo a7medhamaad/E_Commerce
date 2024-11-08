@@ -1,0 +1,148 @@
+/*start main rules*/
+ body{
+    background: color #f4f4f4;;
+ }
+/*end main rules*/
+
+
+
+/*start login form */
+.login{
+    width: 300px;
+    margin: 100px auto;
+}
+.login input{
+    margin-bottom: 10px;
+}
+
+.login .form-control{
+    background-color: #eaeaea  ;
+}
+.login .btn {
+    background-color: #008dde;
+}
+.login h3{
+    color: #888;
+}
+/*end  login form */
+/* start dashboard page*/
+.home-stats .stat{
+
+        background-color: #EEE;
+        border: 1px solid #ccc; 
+        padding: 20px;
+        font-size: 15px;
+        color: #fff;
+    }
+.home-stats .stat span{
+    display: block;
+    font-size: 50px;
+}  
+
+.home-stats .st-members{
+    background-color: #3498db ;
+}
+.home-stats .st-pending{
+    background-color: #c0392b ;
+}
+.home-stats .st-items{
+    background-color: #d35400 ;
+}
+.home-stats .st-comment{
+    background-color:blueviolet;
+}
+
+/* end dashboard page*/
+/*start member page*/
+ h1{
+   font-size: 55px; 
+   margin: 40px 0; 
+   font-weight: bold;
+   color: #666
+ }
+.manage-member img {
+    width:80px ;
+    height: 80px;
+}
+/*end member page*/
+
+/* start header */
+.upper-bar {
+    background-color: #fff;
+    padding: 10px;
+}
+ 
+/* end header /*
+
+/* start login page */
+.login-page form{
+     max-width: 300px;
+     margin: auto;
+}
+.login-page form input{
+   margin-bottom: 10px;
+}
+
+.login-page .selected{
+    color: blue;
+}
+
+.login-page h1 {
+  
+    color: #c0c0c0;  
+    
+}
+.login-page h1 span {
+  
+    cursor: pointer; 
+    
+}
+.login-page .signup{
+    display: none;
+}
+/* start login page */
+.block {
+    margin:20px 0 0 ;
+    background-color: red;
+}
+.information{
+    margin-top: 20px;
+}
+.information ul{
+    padding: 0;
+    margin: 0;
+}
+.information ul li {
+    padding: 10px;
+}
+.information ul li:nth-child(odd){
+    background-color: #EEE;
+}
+
+.item-info ul li{
+    padding: 10px;
+    background-color: red;
+
+}
+.add-comment textarea{
+    display: block;
+}
+.categorie .child-cats{
+    margin: 10px 0 10px 60px;
+} 
+.categorie .child-cats li{
+    margin-left: 20px;
+} 
+.categorie .child-cats li::before{
+    content: "- ";
+} 
+.categorie .child-head{
+    margin: 10px 0 10px 40px;
+    font-weight: bold;
+    color: #22ab79;
+} 
+
+.categorie .show-delete{
+ color: #f00;
+ /* display: none; */
+} 

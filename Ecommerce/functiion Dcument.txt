@@ -1,0 +1,8 @@
+===================================
+========Function Document==========
+===================================
+"Function can be used in all project with differ parameter"
+
+getallfrom($field, $table, $orderfield, $where=null,$and=null ,$ordering='DESC')  
+$where can be empty
+$and can be empty
